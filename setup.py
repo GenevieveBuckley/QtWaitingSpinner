@@ -34,5 +34,5 @@ setup(
     license='MIT',
     author='Luca Weiss',
     author_email='luca@z3ntu.xyz',
-    description='A waiting spinner for PyQt6', requires=['PyQt6']
+    description='A waiting spinner for qtpy', requires=['qtpy']
 )
