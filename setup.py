@@ -34,5 +34,9 @@ setup(
     license='MIT',
     author='Luca Weiss',
     author_email='luca@z3ntu.xyz',
-    description='A waiting spinner for qtpy', requires=['qtpy']
+    description='A waiting spinner for Python Qt',
+    requires=['qtpy'],
+    extras_require={
+        'test': ["pytest", "pytest-qt"],
+    }
 )
