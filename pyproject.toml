@@ -5,8 +5,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "QtWaitingSpinner"
-description = A waiting spinner for Python Qt'
-version='1.0
+description = "A waiting spinner for Python Qt"
+version = "1.0"
 keywords = ["gui"]
 readme = "README.md"
 requires-python = ">=3.8"
