@@ -76,3 +76,18 @@ matrix.backend.features = [
         "pyside6",
     ] },
 ]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "@overload",
+    "except ImportError",
+    "except ImportError*",
+    "raise NotImplementedError()",
+    "pass",
+    "\\.\\.\\.",
+]
+omit = [
+    "test_waitingspinnerwidget.py",
+]
